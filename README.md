@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NoteHub — Authentication & Notes (Next.js)
 
-## Getting Started
+An educational **Next.js / React / TypeScript** project developed during my Full Stack training at GoIT. The app demonstrates authenticated user flows, protected routes, and a notes interface connected to an existing API.
 
-First, run the development server:
+**[Live demo](https://09-auth-bay-eight-52.vercel.app)** · [My GitHub profile](https://github.com/VadymBuleziuk)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What this project demonstrates
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Sign-up and sign-in pages
+- Login, logout and session-check API handlers
+- Protected routes for notes and user profile
+- Notes pages, filtering, search and pagination interfaces
+- Next.js App Router, API routes and client/server components
+- Zustand for client-side state management
+- TanStack Query for asynchronous data fetching
+- Forms and validation with Formik and Yup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Next.js, React, TypeScript, Zustand, TanStack Query, Axios, Formik, Yup, CSS Modules**
 
-## Learn More
+## Local setup
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository.
+2. Install dependencies with `npm install`.
+3. Configure an appropriate API endpoint in `.env.local` (the application reads `NEXT_PUBLIC_API_URL`).
+4. Start the development server with `npm run dev`.
+5. Open `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project relies on an external API/backend and requires suitable configuration. The linked deployment has not been verified as part of this documentation update.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project context
 
-## Deploy on Vercel
+This is a **training project**, not a commercial client deliverable. It demonstrates application structure and authentication-related flows; it is not presented as a security-audited production authentication system.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For a live business project, see **[Fiori di Zefiro](https://www.fiori-di-zefiro.it)** and its [public showcase](https://github.com/VadymBuleziuk/fiori-di-zefiro-showcase).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+**Developer:** [Vadym Buleziuk](https://github.com/VadymBuleziuk) · [LinkedIn](https://www.linkedin.com/in/vadym-buleziuk/)
